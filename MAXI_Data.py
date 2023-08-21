@@ -105,4 +105,4 @@ for a in range(0,Howmanydata):
 Dataframe = pd.DataFrame([date, twototwentykeV, errtot, twotofourkeV, err4, fourtotenkeV, err10, tentotwentykeV, err20], 
                          ['date', 'twototwentykeV', 'errtot', 'twotofourkeV', 'err4', 'fourtotenkeV', 'err10', 'tentotwentykeV', 'err20']).T
 print(Dataframe)
-Dataframe.to_csv('C:/Users/User/Desktop/天文專題/data/{} data from MAXI.csv'.format(Nowstarname))
+Dataframe.to_csv('C:/Users/User/Desktop/arsto/data/{} data from MAXI.csv'.format(Nowstarname))
