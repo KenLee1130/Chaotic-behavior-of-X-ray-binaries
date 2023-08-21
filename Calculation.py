@@ -13,16 +13,11 @@ import time
 
 start_time = time.time()
 
-#tag = 'twototwentykeV'
-#tag = 'tentotwentykeV'
-#tag = '2-20keV'
-#tags = ['2-4keV', '4-10keV']
 tags = ['twotofourkeV', 'fourtotenkeV']
 #Nowstarname = 'white_noise_blank'
 Nowstarname = 'LMC X-3'
 period = ''#'1day'
-#data = pd.read_csv('C:/Users/User/Desktop/天文專題/data/Wahed_{}_data.csv'.format(Nowstarname))
-data = pd.read_csv("C:/Users/User/Desktop/天文專題/data/{} data from MAXI.csv".format(Nowstarname))
+data = pd.read_csv("C:/Users/User/Desktop/arstro/data/{} data from MAXI.csv".format(Nowstarname))
 #data = Tools().testing_data()[Nowstarname]
 
 #DFA(data, tag).plotDFA(Nowstarname, period, tag, avg=True)
